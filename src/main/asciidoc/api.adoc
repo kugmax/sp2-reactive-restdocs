@@ -1,0 +1,36 @@
+= Api reactive
+:icons: font
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+:sectnums:
+:sectnumlevels: 3
+:leveloffset: 1
+
+[[resources-GameAPI]]
+= Game API
+
+[[resources-put]]
+== Put
+
+=== Request fields
+include::{snippets}/GameAPI-put-success/request-parameters.adoc[]
+
+=== Example request
+include::{snippets}/GameAPI-put-success/curl-request.adoc[]
+
+=== Example success response
+include::{snippets}/GameAPI-put-success/http-response.adoc[]
+
+[[resources-get]]
+== Get
+
+=== Request fields
+include::{snippets}/GameAPI-get-success/path-parameters.adoc[]
+
+=== Example request
+include::{snippets}/GameAPI-get-success/curl-request.adoc[]
+
+=== Example success response
+include::{snippets}/GameAPI-get-success/http-response.adoc[]
